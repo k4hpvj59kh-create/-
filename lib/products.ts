@@ -25,7 +25,7 @@ export const products: Product[] = [
     tagline: "הקפל הרך. הפינוק השקט.",
     taglineEn: "The gathered edge. The quiet luxury.",
     description:
-      "מפת הדגל שלנו מפשתן אירופאי מורחץ. הקפל העדין בשוליים יוצר רכות שהופכת כל שולחן לפינת אוכל אינטימית. מתרככת עוד יותר בכל כביסה.",
+      "פשתן טבעי, קפלים רכים, תפירה ביד. המפה שהופכת כל ארוחה לרגע.",
     descriptionEn:
       "Our signature ruffled tablecloth in pure stonewashed linen. The gentle gather at the hem creates a softness that transforms any table. Gets better with every wash.",
     price: 39900,

@@ -29,7 +29,7 @@ export const products: Product[] = [
     descriptionEn:
       "Our signature ruffled tablecloth in pure stonewashed linen. The gentle gather at the hem creates a softness that transforms any table. Gets better with every wash.",
     price: 39900,
-    images: ["/images/product-ivory-square.jpg", "/images/product-texture.jpg"],
+    images: ["/images/hero-table.jpg", "/images/product-ruffle.jpg"],
     details: [
       "100% פשתן אירופאי, שטיפת אבן",
       "שוליים מקופלים, תפר משולש",
@@ -119,7 +119,7 @@ export const products: Product[] = [
     descriptionEn:
       "Our largest size — for big families, long Shabbat tables, and holidays to remember. Every ruffle hand-stitched.",
     price: 54900,
-    images: ["/images/product-natural-rect.jpg", "/images/product-texture.jpg"],
+    images: ["/images/product-ruffle.jpg", "/images/product-natural-rect.jpg"],
     details: [
       "100% פשתן אירופאי, שטיפת אבן",
       "שוליים מקופלים, תפר משולש",

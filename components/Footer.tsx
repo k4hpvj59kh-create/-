@@ -14,8 +14,8 @@ export default function Footer() {
           <p className="text-[11px] tracking-[0.2em] uppercase text-taupe mb-4">Shirat HaYam</p>
           <p className="text-sm text-taupe leading-relaxed max-w-xs">
             {t(
-              "מפות שולחן עשויות לחיות בהן, לכבס, לאהוב, ולהעביר הלאה.",
-              "Handcrafted linen tablecloths made to be lived in, washed, loved, and passed on."
+              "מפת שירת הים — לשבתות, לחגים, לכל שישי.",
+              "Shirat HaYam — for Shabbat, for holidays, for every Friday."
             )}
           </p>
         </div>

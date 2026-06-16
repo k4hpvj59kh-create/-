@@ -1,0 +1,11 @@
+
+
+
+
+| שולחן ריבועי לבן | `product-ivory-square.jpg` |
+| שולחן ארוך טבעי | `product-natural-rect.jpg` |
+| קלוז-אפ בד | `product-texture.jpg` |
+| שולחן ליד חלון | `product-window.jpg` |
+| פינה עם כוס | `product-corner.jpg` |
+| כל תמונה שתרצה ראשית | `hero.jpg` |
+

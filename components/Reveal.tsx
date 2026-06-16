@@ -1,30 +1,36 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
-export default function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
+export default function Reveal({
+  children,
+  delay = 0,
+  className = "",
+}: {
+  children: React.ReactNode;
+  delay?: number;
+  className?: string;
+}) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setVisible(true); obs.disconnect(); } },
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => el.classList.add("is-visible"), delay);
+          observer.unobserve(el);
+        }
+      },
       { threshold: 0.15 }
     );
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, []);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [delay]);
 
   return (
-    <div
-      ref={ref}
-      style={{
-        opacity: visible ? undefined : 0,
-        animation: visible ? `fadeUp 0.7s ${delay}ms ease forwards` : undefined,
-      }}
-    >
+    <div ref={ref} className={`reveal ${className}`}>
       {children}
     </div>
   );

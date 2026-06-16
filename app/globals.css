@@ -9,8 +9,8 @@
   --color-espresso: #2A1A0E;
   --color-gold: #B8965A;
 
-  --font-serif: "Cormorant Garamond", Georgia, serif;
-  --font-sans: "Heebo", "DM Sans", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
 }
 
 html {
@@ -58,4 +58,20 @@ html { scroll-behavior: smooth; }
 
 .animate-slide-in {
   animation: slideIn 0.35s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1),
+              transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
 }

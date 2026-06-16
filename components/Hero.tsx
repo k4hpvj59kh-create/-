@@ -24,7 +24,7 @@ export default function Hero() {
           {t("מפת פשתן טהור", "Pure Linen Tablecloth")}
         </p>
         <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl text-cream leading-[1.05] max-w-xl">
-          {t("השולחן,\nהמפה.", "The Table,\nThe Tablecloth.")}
+          {t("המפה שמשנה הכל.", "The Tablecloth That Changes Everything.")}
         </h1>
         <p className="mt-5 text-cream/80 max-w-sm leading-relaxed">
           {t(

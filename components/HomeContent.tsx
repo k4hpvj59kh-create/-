@@ -66,7 +66,7 @@ export default function HomeContent() {
         <Reveal>
           <p className="text-[11px] tracking-[0.25em] uppercase text-taupe mb-3">{t("טיפול במפה", "Care Guide")}</p>
           <h2 className="font-serif text-3xl md:text-4xl text-espresso mb-8">
-            {t("כבסי. סחטי. התפעלי.", "Wash. Wring. Wonder.")}
+            {t("נקי. רענן. מוכן.", "Clean. Fresh. Ready.")}
           </h2>
         </Reveal>
         <Reveal delay={80}>

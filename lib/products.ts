@@ -59,7 +59,7 @@ export const products: Product[] = [
     descriptionEn:
       "The rectangular Shirat HaYam in undyed natural linen. Its earthy warmth makes it the centrepiece of any dining occasion.",
     price: 44900,
-    images: ["/images/product-natural-rect.jpg", "/images/product-window.jpg"],
+    images: ["/images/product-shabbat.jpg", "/images/product-flowers.jpg"],
     details: [
       "100% פשתן טהור",
       "שוליים מקופלים, תפר משולש",
@@ -89,7 +89,7 @@ export const products: Product[] = [
     descriptionEn:
       "The White Shirat HaYam brings a sense of occasion to long celebration tables. Washed to a luminous softness — never stiff.",
     price: 49900,
-    images: ["/images/product-window.jpg", "/images/product-corner.jpg"],
+    images: ["/images/product-flowers.jpg", "/images/product-shabbat.jpg"],
     details: [
       "100% פשתן טהור",
       "שוליים מקופלים, תפר משולש",

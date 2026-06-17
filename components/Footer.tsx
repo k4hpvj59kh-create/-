@@ -53,7 +53,7 @@ export default function Footer() {
 
       <div className="border-t border-linen-border mx-6 lg:mx-10 py-6 flex flex-col md:flex-row justify-between gap-2 text-[11px] text-taupe">
         <p>© {new Date().getFullYear()} מפת · שירת הים. כל הזכויות שמורות.</p>
-        <p>{t("משלוח חינם בישראל · החזרה עד 30 יום", "Free shipping in Israel · 30-day returns")}</p>
+        <p>{t("משלוח חינם בישראל", "Free shipping in Israel")}</p>
       </div>
     </footer>
   );

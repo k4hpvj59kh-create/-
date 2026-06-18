@@ -23,10 +23,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        <a href="#main-content" className="skip-link">דלג לתוכן הראשי</a>
         <LangProvider>
           <CartProvider>
             <Header />
-            <main>{children}</main>
+            <main id="main-content" tabIndex={-1}>{children}</main>
             <Footer />
             <CartDrawer />
           </CartProvider>

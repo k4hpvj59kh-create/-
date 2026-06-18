@@ -52,6 +52,7 @@ export default function Header() {
           {/* Language toggle */}
           <button
             onClick={toggle}
+            aria-label={lang === "he" ? "Switch to English" : "עבור לעברית"}
             className="text-[11px] tracking-[0.12em] uppercase text-taupe hover:text-espresso transition-colors border border-linen-border px-2 py-0.5"
           >
             {lang === "he" ? "EN" : "עב"}

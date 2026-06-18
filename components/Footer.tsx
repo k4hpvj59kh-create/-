@@ -26,6 +26,7 @@ export default function Footer() {
             <li><Link href="/collection" className="hover:text-espresso transition-colors">{t("הקולקציה", "Collection")}</Link></li>
             <li><Link href="/#story" className="hover:text-espresso transition-colors">{t("הסיפור שלנו", "Our Story")}</Link></li>
             <li><Link href="/#care" className="hover:text-espresso transition-colors">{t("טיפול במפה", "Care Guide")}</Link></li>
+            <li><Link href="/policy" className="hover:text-espresso transition-colors">{t("מדיניות החנות", "Store Policy")}</Link></li>
           </ul>
         </div>
 

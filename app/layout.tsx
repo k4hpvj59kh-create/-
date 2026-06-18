@@ -7,8 +7,30 @@ import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
 
 export const metadata: Metadata = {
-  title: "מפת · שירת הים",
-  description: "מפות שולחן פשתן עם קפלים, עשויות בעבודת יד מפשתן אירופאי טהור.",
+  title: "מפת שירת הים | מפות שולחן פשתן",
+  description: "מפות שולחן פשתן טהור עם קפלים, נתפרות ביד — לשבתות, לחגים, לכל שישי.",
+  openGraph: {
+    title: "מפת שירת הים | מפות שולחן פשתן",
+    description: "מפות שולחן פשתן טהור עם קפלים, נתפרות ביד — לשבתות, לחגים, לכל שישי.",
+    url: "https://mapat-shirat-hayam.vercel.app",
+    siteName: "מפת שירת הים",
+    images: [
+      {
+        url: "https://mapat-shirat-hayam.vercel.app/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "מפת שירת הים — מפות שולחן פשתן",
+      },
+    ],
+    locale: "he_IL",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "מפת שירת הים | מפות שולחן פשתן",
+    description: "מפות שולחן פשתן טהור עם קפלים, נתפרות ביד.",
+    images: ["https://mapat-shirat-hayam.vercel.app/images/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "מפת שירת הים | מפות שולחן פשתן",
     description: "מפות שולחן פשתן טהור עם קפלים, נתפרות ביד — לשבתות, לחגים, לכל שישי.",
-    url: "https://mapat-shirat-hayam.vercel.app",
+    url: "https://www.mapatshirathayam.com",
     siteName: "מפת שירת הים",
     images: [
       {
-        url: "https://mapat-shirat-hayam.vercel.app/images/og-image.jpg",
+        url: "https://www.mapatshirathayam.com/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "מפת שירת הים — מפות שולחן פשתן",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "מפת שירת הים | מפות שולחן פשתן",
     description: "מפות שולחן פשתן טהור עם קפלים, נתפרות ביד.",
-    images: ["https://mapat-shirat-hayam.vercel.app/images/og-image.jpg"],
+    images: ["https://www.mapatshirathayam.com/images/og-image.jpg"],
   },
 };
 

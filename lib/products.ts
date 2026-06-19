@@ -29,7 +29,7 @@ export const products: Product[] = [
     descriptionEn:
       "Our signature ruffled tablecloth in pure stonewashed linen. The gentle gather at the hem creates a softness that transforms any table. Gets better with every wash.",
     price: 39900,
-    images: ["/images/hero-table.jpg", "/images/product-ruffle.jpg"],
+    images: ["/images/hero-table.webp", "/images/product-ruffle.webp"],
     details: [
       "תערובת פשתן ופוליאסטר איכותי",
       "שוליים מקופלים, תפר משולש",
@@ -59,7 +59,7 @@ export const products: Product[] = [
     descriptionEn:
       "The rectangular Shirat HaYam in undyed natural linen. Its earthy warmth makes it the centrepiece of any dining occasion.",
     price: 44900,
-    images: ["/images/product-shabbat.jpg", "/images/product-flowers.jpg"],
+    images: ["/images/product-shabbat.webp", "/images/product-flowers.webp"],
     details: [
       "תערובת פשתן ופוליאסטר איכותי",
       "שוליים מקופלים, תפר משולש",
@@ -89,7 +89,7 @@ export const products: Product[] = [
     descriptionEn:
       "The White Shirat HaYam brings a sense of occasion to long celebration tables. Washed to a luminous softness — never stiff.",
     price: 49900,
-    images: ["/images/product-flowers.jpg", "/images/product-shabbat.jpg"],
+    images: ["/images/product-flowers.webp", "/images/product-shabbat.webp"],
     details: [
       "תערובת פשתן ופוליאסטר איכותי",
       "שוליים מקופלים, תפר משולש",
@@ -119,7 +119,7 @@ export const products: Product[] = [
     descriptionEn:
       "Our largest size — for big families, long Shabbat tables, and holidays to remember. Every ruffle hand-stitched.",
     price: 54900,
-    images: ["/images/product-ruffle.jpg", "/images/product-natural-rect.jpg"],
+    images: ["/images/product-ruffle.webp", "/images/product-natural-rect.webp"],
     details: [
       "תערובת פשתן ופוליאסטר איכותי",
       "שוליים מקופלים, תפר משולש",

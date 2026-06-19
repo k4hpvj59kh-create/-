@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="relative h-screen min-h-[600px] flex items-end overflow-hidden">
       {/* Image */}
       <img
-        src="/images/hero-table.jpg"
+        src="/images/hero-table.webp"
         alt="מפת שירת הים"
         className="absolute inset-0 w-full h-full object-cover object-center"
         style={{ imageRendering: "high-quality" } as React.CSSProperties}

@@ -113,7 +113,7 @@ export default function HomeContent() {
             {[
               { name: "מיכל ר.", text: t("קיבלתי את המפה לשבת והשולחן פשוט נראה אחרת. הקפלים מדהימים ובד רך להפליא.", "Received the tablecloth for Shabbat and the table just looks different. The ruffles are stunning and the fabric is incredibly soft."), stars: 5 },
               { name: "דנה כ.", text: t("הזמנתי למתנה ואמרו לי שזה הכי יפה שקיבלו. איכות מושלמת, שירות מהיר.", "Ordered as a gift and they told me it's the most beautiful thing they received. Perfect quality, fast service."), stars: 5 },
-              { name: "רחל מ.", text: t("המפה עברה כבר 10 כביסות ועדיין נראית כמו חדשה. שווה כל שקל.", "The tablecloth has gone through 10 washes and still looks like new. Worth every penny."), stars: 5 },
+              { name: "רחל מ.", text: t("המפה עברה כבר עשר כביסות ועדיין נראית כמו חדשה. שווה כל שקל.", "The tablecloth has gone through ten washes and still looks like new. Worth every penny."), stars: 5 },
             ].map((r) => (
               <Reveal key={r.name}>
                 <div className="bg-warm-white p-8 border border-linen-border">
@@ -122,7 +122,7 @@ export default function HomeContent() {
                       <span key={i} className="text-gold text-lg">★</span>
                     ))}
                   </div>
-                  <p className="text-taupe leading-relaxed mb-6 text-sm">"{r.text}"</p>
+                  <p className="text-taupe leading-relaxed mb-6 text-sm">{r.text}</p>
                   <p className="font-serif text-espresso">{r.name}</p>
                 </div>
               </Reveal>

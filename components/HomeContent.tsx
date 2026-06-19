@@ -141,7 +141,7 @@ export default function HomeContent() {
           {[
             {
               q: t("באיזה בד עשויות המפות?", "What fabric are the tablecloths made of?"),
-              a: t("100% פשתן טהור — בד טבעי, נושם, שמתרכך עם כל כביסה.", "100% pure linen — a natural, breathable fabric that softens with every wash."),
+              a: t("תערובת פשתן ופוליאסטר איכותי — רכות של פשתן טבעי עם עמידות שלא מתקמטת.", "A blend of linen and quality polyester — the softness of natural linen with wrinkle-resistant durability."),
             },
             {
               q: t("כמה זמן לוקח המשלוח?", "How long does shipping take?"),

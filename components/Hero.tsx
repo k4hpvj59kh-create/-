@@ -12,7 +12,7 @@ export default function Hero() {
       <img
         src="/images/hero-table.webp"
         alt="מפת שירת הים"
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-cover object-center hero-img"
         style={{ imageRendering: "high-quality" } as React.CSSProperties}
       />
       {/* Gradient overlay */}
@@ -20,13 +20,13 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10 pb-16 lg:pb-24 w-full">
-        <p className="text-[11px] tracking-[0.3em] uppercase text-cream/70 mb-3">
+        <p className="hero-tag text-[11px] tracking-[0.3em] uppercase text-cream/70 mb-3">
           {t("מפת פשתן טהור", "Pure Linen Tablecloth")}
         </p>
-        <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl text-cream leading-[1.05] max-w-xl">
+        <h1 className="hero-title font-serif text-4xl sm:text-5xl md:text-7xl text-cream leading-[1.05] max-w-xl">
           {t("המפה שמשנה הכל.", "The Tablecloth That Changes Everything.")}
         </h1>
-        <p className="mt-5 text-cream/80 max-w-sm leading-relaxed">
+        <p className="hero-subtitle mt-5 text-cream/80 max-w-sm leading-relaxed">
           {t(
             "מפות שולחן עם קפלים, עשויות בעבודת יד — לשולחנות שמכנסים אנשים.",
             "Ruffled tablecloths handcrafted by hand — for tables that gather people."
@@ -34,7 +34,7 @@ export default function Hero() {
         </p>
         <Link
           href="/collection"
-          className="inline-block mt-8 border border-cream text-cream px-8 py-3.5 text-[13px] tracking-[0.14em] uppercase hover:bg-cream hover:text-espresso transition-colors"
+          className="hero-cta inline-block mt-8 border border-cream text-cream px-8 py-3.5 text-[13px] tracking-[0.14em] uppercase hover:bg-cream hover:text-espresso transition-colors"
         >
           {t("לקולקציה", "Shop Collection")}
         </Link>

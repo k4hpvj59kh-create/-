@@ -41,8 +41,8 @@ export default function Hero() {
         </h1>
         <p className="hero-subtitle mt-5 text-cream/80 max-w-sm leading-relaxed">
           {t(
-            "מפות שולחן עם קפלים, עשויות בעבודת יד — לשולחנות שמכנסים אנשים.",
-            "Ruffled tablecloths handcrafted by hand — for tables that gather people."
+            "מפות שולחן עם קפלים, עשויות בעבודת יד — לשולחנות שאוהבים לארח.",
+            "Ruffled tablecloths handcrafted by hand — for tables that love to host."
           )}
         </p>
         <Link

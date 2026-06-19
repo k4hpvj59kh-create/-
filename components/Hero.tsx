@@ -2,18 +2,31 @@
 
 import Link from "next/link";
 import { useLang } from "@/lib/lang";
+import { useEffect, useRef } from "react";
 
 export default function Hero() {
   const { t } = useLang();
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!imgRef.current) return;
+      const scrollY = window.scrollY;
+      imgRef.current.style.transform = `translateY(${scrollY * 0.35}px)`;
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <section className="relative h-screen min-h-[600px] flex items-end overflow-hidden">
       {/* Image */}
       <img
+        ref={imgRef}
         src="/images/hero-table.webp"
         alt="מפת שירת הים"
         className="absolute inset-0 w-full h-full object-cover object-center hero-img"
-        style={{ imageRendering: "high-quality" } as React.CSSProperties}
+        style={{ imageRendering: "high-quality", willChange: "transform" } as React.CSSProperties}
       />
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-espresso/65 via-espresso/15 to-transparent" />

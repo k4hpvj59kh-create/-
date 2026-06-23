@@ -11,6 +11,8 @@ export default function ProductCard({ product }: { product: Product }) {
     <Link href={`/products/${product.slug}`} className="group block">
       <div className="relative aspect-[4/5] overflow-hidden bg-linen">
         <div
+          role="img"
+          aria-label={t(`${product.name} — ${product.color}, ${product.dimensions}`, `${product.nameEn} — ${product.colorEn}, ${product.dimensions}`)}
           className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
           style={{ backgroundImage: `url(${product.images[0]})` }}
         />

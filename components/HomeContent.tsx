@@ -31,7 +31,7 @@ export default function HomeContent() {
       <section id="story" className="bg-linen py-32 px-6">
         <div className="mx-auto max-w-7xl lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <Reveal>
-            <div className="aspect-[3/4] bg-cover bg-center bg-linen" style={{ backgroundImage: "url(/images/img4-0.webp)" }} />
+            <div role="img" aria-label={t("שולחן ערוך עם מפת שירת הים", "Table set with Shirat HaYam tablecloth")} className="aspect-[3/4] bg-cover bg-center bg-linen" style={{ backgroundImage: "url(/images/img4-0.webp)" }} />
           </Reveal>
           <Reveal delay={120}>
             <div className="max-w-xl">

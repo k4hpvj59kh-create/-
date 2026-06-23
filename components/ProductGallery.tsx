@@ -11,6 +11,8 @@ export default function ProductGallery({ product }: { product: Product }) {
       {/* Main image */}
       <div className="aspect-[4/5] bg-linen overflow-hidden">
         <div
+          role="img"
+          aria-label={`${product.name} — ${product.color}, ${product.dimensions}`}
           className="w-full h-full bg-cover bg-center transition-opacity duration-500"
           style={{ backgroundImage: `url(${product.images[active]})` }}
         />
@@ -23,6 +25,7 @@ export default function ProductGallery({ product }: { product: Product }) {
             <button
               key={i}
               onClick={() => setActive(i)}
+              aria-label={`תמונה ${i + 1} של ${product.name}`}
               className={`aspect-square w-16 bg-linen overflow-hidden border-2 transition-colors ${
                 active === i ? "border-espresso" : "border-transparent hover:border-linen-border"
               }`}

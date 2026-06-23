@@ -33,6 +33,22 @@ h1, h2, h3, h4 {
 
 html { scroll-behavior: smooth; }
 
+/* נגישות — מצבי תצוגה */
+.a11y-contrast {
+  filter: contrast(1.4);
+}
+.a11y-stop-motion *,
+.a11y-stop-motion *::before,
+.a11y-stop-motion *::after {
+  animation: none !important;
+  transition: none !important;
+}
+.a11y-highlight-links a {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  font-weight: 600 !important;
+}
+
 /* נגישות — פוקוס גלוי */
 :focus-visible {
   outline: 2px solid var(--color-espresso);

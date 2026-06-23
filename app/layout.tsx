@@ -5,6 +5,7 @@ import { LangProvider } from "@/lib/lang";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
+import AccessibilityMenu from "@/components/AccessibilityMenu";
 
 export const metadata: Metadata = {
   title: "מפת שירת הים | מפות שולחן פשתן",
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <main id="main-content" tabIndex={-1}>{children}</main>
             <Footer />
             <CartDrawer />
+            <AccessibilityMenu />
             <a
               href="https://wa.me/972528433338"
               target="_blank"

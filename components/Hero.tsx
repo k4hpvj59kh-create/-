@@ -28,8 +28,9 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover object-center hero-img"
         style={{ imageRendering: "high-quality", willChange: "transform" } as React.CSSProperties}
       />
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-espresso/65 via-espresso/15 to-transparent" />
+      {/* Gradient overlay — warm, soft brown */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#3a2a1c]/70 via-[#5c4636]/25 to-[#8a6f56]/10" />
+      <div className="absolute inset-0 bg-[#2A1A0E]/10" />
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10 pb-16 lg:pb-24 w-full">

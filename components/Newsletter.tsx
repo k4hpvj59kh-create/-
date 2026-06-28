@@ -29,9 +29,14 @@ export default function Newsletter() {
           <p className="text-sm text-espresso font-medium">{t("תודה — נהיה בקשר.", "Thank you — we'll be in touch.")}</p>
         ) : (
           <form onSubmit={handleSubmit} className="flex gap-0 max-w-sm mx-auto">
+            <label htmlFor="newsletter-email" className="sr-only">
+              {t("כתובת אימייל", "Email address")}
+            </label>
             <input
+              id="newsletter-email"
               type="email"
               required
+              aria-label={t("כתובת אימייל", "Email address")}
               placeholder={t("המייל שלך", "your@email.com")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
